@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AG Book Rounded Medium.otf">
+            <string>AGBookRounded-Medium</string>
+        </array>
+        <array key="AG Book Rounded Regular.otf">
+            <string>AGBookRounded-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppointmentCell" id="KGk-i7-Jjw" customClass="AppointmentCell" customModule="GenieCanHelp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="83"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="82.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Abrar Ahmed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="vYN-7p-8R1">
+                        <rect key="frame" x="15" y="10" width="384" height="22"/>
+                        <fontDescription key="fontDescription" name="AGBookRounded-Medium" family="AG Book Rounded" pointSize="18"/>
+                        <color key="textColor" red="0.50588235290000005" green="0.50980392159999999" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Lahore" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Swe-Yl-3NP">
+                        <rect key="frame" x="15" y="32" width="384" height="21"/>
+                        <fontDescription key="fontDescription" name="AGBookRounded-Regular" family="AG Book Rounded" pointSize="18"/>
+                        <color key="textColor" red="0.50588235290000005" green="0.50980392159999999" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="22-08-2018 10:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2vb-6A-t6s">
+                        <rect key="frame" x="15" y="53" width="384" height="19.5"/>
+                        <fontDescription key="fontDescription" name="AGBookRounded-Regular" family="AG Book Rounded" pointSize="18"/>
+                        <color key="textColor" red="0.50588235290000005" green="0.50980392159999999" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Swe-Yl-3NP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="6Jk-sz-JLj"/>
+                    <constraint firstAttribute="trailing" secondItem="Swe-Yl-3NP" secondAttribute="trailing" constant="15" id="8Ug-aI-mpk"/>
+                    <constraint firstItem="Swe-Yl-3NP" firstAttribute="top" secondItem="vYN-7p-8R1" secondAttribute="bottom" id="9J0-2F-vhE"/>
+                    <constraint firstItem="2vb-6A-t6s" firstAttribute="top" secondItem="Swe-Yl-3NP" secondAttribute="bottom" id="N0i-0M-QhS"/>
+                    <constraint firstItem="2vb-6A-t6s" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="QNk-Is-MHW"/>
+                    <constraint firstAttribute="trailing" secondItem="2vb-6A-t6s" secondAttribute="trailing" constant="15" id="XVc-iT-FMt"/>
+                    <constraint firstAttribute="trailing" secondItem="vYN-7p-8R1" secondAttribute="trailing" constant="15" id="nKz-Og-c7U"/>
+                    <constraint firstItem="vYN-7p-8R1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="rFF-HE-FQE"/>
+                    <constraint firstAttribute="bottom" secondItem="2vb-6A-t6s" secondAttribute="bottom" constant="10" id="u6k-pX-rax"/>
+                    <constraint firstItem="vYN-7p-8R1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="zv8-wW-k6E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblWhen" destination="2vb-6A-t6s" id="PLs-ga-Kot"/>
+                <outlet property="lblWhere" destination="Swe-Yl-3NP" id="6kU-ZS-E3L"/>
+                <outlet property="lblWith" destination="vYN-7p-8R1" id="WBM-mR-AJd"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

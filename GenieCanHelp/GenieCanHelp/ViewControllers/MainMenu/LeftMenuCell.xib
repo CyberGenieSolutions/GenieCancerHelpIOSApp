@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AG Book Rounded Medium.otf">
+            <string>AGBookRounded-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LeftMenuCell" rowHeight="60" id="ttY-IS-6XS" customClass="LeftMenuCell" customModule="GenieCanHelp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ttY-IS-6XS" id="9r9-3D-VR3">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_tandc" translatesAutoresizingMaskIntoConstraints="NO" id="tnw-ep-lTK">
+                        <rect key="frame" x="15" y="18" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="r2W-yt-Ves"/>
+                            <constraint firstAttribute="height" constant="24" id="yTE-Yy-yX1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms and Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQ8-El-imF">
+                        <rect key="frame" x="49" y="20" width="335" height="20.5"/>
+                        <fontDescription key="fontDescription" name="AGBookRounded-Medium" family="AG Book Rounded" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="QQ8-El-imF" secondAttribute="trailing" constant="10" id="CpR-Ns-sZ9"/>
+                    <constraint firstItem="QQ8-El-imF" firstAttribute="centerY" secondItem="tnw-ep-lTK" secondAttribute="centerY" id="Py4-F2-iUL"/>
+                    <constraint firstItem="tnw-ep-lTK" firstAttribute="leading" secondItem="9r9-3D-VR3" secondAttribute="leading" constant="15" id="TkL-FQ-FWU"/>
+                    <constraint firstItem="tnw-ep-lTK" firstAttribute="centerY" secondItem="9r9-3D-VR3" secondAttribute="centerY" id="tez-lv-0bL"/>
+                    <constraint firstItem="QQ8-El-imF" firstAttribute="leading" secondItem="tnw-ep-lTK" secondAttribute="trailing" constant="10" id="zrp-jE-8ZC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgIcon" destination="tnw-ep-lTK" id="Nf4-Qg-eCE"/>
+                <outlet property="lblTitle" destination="QQ8-El-imF" id="tuH-J1-laJ"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="menu_tandc" width="24" height="24"/>
+    </resources>
+</document>

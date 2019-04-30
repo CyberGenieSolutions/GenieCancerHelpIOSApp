@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AG Book Rounded Regular.otf">
+            <string>AGBookRounded-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MedicineDoseTimeCell" id="KGk-i7-Jjw" customClass="MedicineDoseTimeCell" customModule="GenieCanHelp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="08:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUp-Ph-ucJ">
+                        <rect key="frame" x="10" y="10" width="43" height="23"/>
+                        <fontDescription key="fontDescription" name="AGBookRounded-Regular" family="AG Book Rounded" pointSize="17"/>
+                        <color key="textColor" red="0.50588235290000005" green="0.50980392159999999" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="take 1 dose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tkN-Ag-HcA">
+                        <rect key="frame" x="73" y="10" width="237" height="23"/>
+                        <fontDescription key="fontDescription" name="AGBookRounded-Regular" family="AG Book Rounded" pointSize="17"/>
+                        <color key="textColor" red="0.50588235290000005" green="0.50980392159999999" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="bUp-Ph-ucJ" secondAttribute="bottom" constant="10" id="0L4-NJ-1J8"/>
+                    <constraint firstItem="tkN-Ag-HcA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="A1V-vJ-0GB"/>
+                    <constraint firstItem="tkN-Ag-HcA" firstAttribute="leading" secondItem="bUp-Ph-ucJ" secondAttribute="trailing" constant="20" id="Iqg-rG-6cg"/>
+                    <constraint firstItem="bUp-Ph-ucJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="MFf-fB-3Mr"/>
+                    <constraint firstAttribute="trailing" secondItem="tkN-Ag-HcA" secondAttribute="trailing" constant="10" id="O55-OF-q1I"/>
+                    <constraint firstItem="bUp-Ph-ucJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="sbL-qK-pFr"/>
+                    <constraint firstAttribute="bottom" secondItem="tkN-Ag-HcA" secondAttribute="bottom" constant="10" id="wWL-NL-yJP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblDose" destination="tkN-Ag-HcA" id="kC0-XX-HK0"/>
+                <outlet property="lblTime" destination="bUp-Ph-ucJ" id="wUc-wF-DHN"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

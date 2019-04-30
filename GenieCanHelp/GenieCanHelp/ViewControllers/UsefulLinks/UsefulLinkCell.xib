@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AG Book Rounded Regular.otf">
+            <string>AGBookRounded-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="UsefulLinkCell" id="KGk-i7-Jjw" customClass="UsefulLinkCell" customModule="GenieCanHelp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Link Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZl-ct-aFE">
+                        <rect key="frame" x="10" y="10" width="394" height="19.5"/>
+                        <fontDescription key="fontDescription" name="AGBookRounded-Regular" family="AG Book Rounded" pointSize="17"/>
+                        <color key="textColor" red="0.45098039220000002" green="0.13725490200000001" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="749" scrollEnabled="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" editable="NO" text="Lorem ipsum dolor sit er elit lamet, consectetaur cillium " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IrK-cr-1PB">
+                        <rect key="frame" x="10" y="34.5" width="394" height="34.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.50588235290000005" green="0.50980392159999999" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" red="0.50588235290000005" green="0.50980392159999999" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" name="AGBookRounded-Regular" family="AG Book Rounded" pointSize="17"/>
+                        <textInputTraits key="textInputTraits" textContentType="url"/>
+                        <dataDetectorType key="dataDetectorTypes" link="YES" address="YES"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="IrK-cr-1PB" secondAttribute="trailing" constant="10" id="Fbe-Ge-M5B"/>
+                    <constraint firstAttribute="bottom" secondItem="IrK-cr-1PB" secondAttribute="bottom" constant="10" id="PK2-YP-uB7"/>
+                    <constraint firstItem="IrK-cr-1PB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Zgo-mc-iNu"/>
+                    <constraint firstAttribute="trailing" secondItem="UZl-ct-aFE" secondAttribute="trailing" constant="10" id="ePr-Dp-bHY"/>
+                    <constraint firstItem="IrK-cr-1PB" firstAttribute="top" secondItem="UZl-ct-aFE" secondAttribute="bottom" constant="5" id="fVc-g8-ab4"/>
+                    <constraint firstItem="UZl-ct-aFE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="ggk-2i-tAd"/>
+                    <constraint firstItem="UZl-ct-aFE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="umd-rd-57r"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblTitle" destination="UZl-ct-aFE" id="h7a-DR-nGH"/>
+                <outlet property="txtViewLink" destination="IrK-cr-1PB" id="dEt-xP-Cnq"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

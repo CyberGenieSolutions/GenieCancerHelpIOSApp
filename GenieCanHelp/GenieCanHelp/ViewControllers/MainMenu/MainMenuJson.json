@@ -1,0 +1,60 @@
+[
+ {
+ "option_name":"PROFILE",
+ "option_image_name":"PROFILE.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"CONTACTS",
+ "option_image_name":"CONTACTS.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"MEDICATIONS",
+ "option_image_name":"MEDICATIONS.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"APPOINTMENTS",
+ "option_image_name":"APPOINTMENTS.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"NOTES TO KEEP",
+ "option_image_name":"NOTES_TO_KEEP.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"MOOD TRACKER",
+ "option_image_name":"MOOD_TRACKER.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"BODY TEMPERATURE",
+ "option_image_name":"BODY_TEMPERATURE.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"OXYGEN LEVEL",
+ "option_image_name":"OXYGEN_LEVEL.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"FLUID INTAKE",
+ "option_image_name":"FLUID_INTAKE.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"USEFUL LINKS",
+ "option_image_name":"USEFUL_LINKS.png",
+ "is_visible":true
+ },
+ {
+ "option_name":"MY LISTS",
+ "option_image_name":"MY_LISTS.png",
+ "is_visible":true
+ }
+]
+ 
+ 
+
