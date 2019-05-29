@@ -24,8 +24,6 @@ Thinking about contributing in GenieCanHelp app!! We welcome you to our communit
 
 •	Put as many helpful comments you can in the code.
 
-•	Don’t forget to put Google Analytics tracking functionality. For details refer to Section 4.1.2.5 of [@Functional Specification document](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/tree/master/docs/).
-
 •	Ensure that you follow colour and font guide provided in section 4.2 of [@Functional Specification document](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/tree/master/docs/). 
 
 
