@@ -22,7 +22,7 @@ This folder contains the source code of GenieCanHelp iOS Mobile application.
 * Swift 4
 
 ## Setup
-Clone or Download GenieCanHelp source code and developers need to open GenieCanHelp.xcodeproj file in XCode.
+Clone or Download GenieCanHelp source code and developers need to open GenieCanHelp.xcworkspace file in XCode.
 
 ## Features
 List of existing features
