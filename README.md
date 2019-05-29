@@ -34,6 +34,8 @@ List of existing features
 * Oxygen level
 * fluid intake
 * Useful links
+* Create PDF reports
+* Email reports
 
 To-do list:
 * Sleep tracker
