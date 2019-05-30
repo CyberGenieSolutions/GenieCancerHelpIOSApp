@@ -26,6 +26,7 @@ Thinking about contributing in GenieCanHelp app!! We welcome you to our communit
 
 •	Ensure that you follow colour and font guide provided in section 4.2 of [@Functional Specification document](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/tree/master/docs/). 
 
+•	This app ueses [@Firebase](https://firebase.google.com/docs/storage/ios/start/) for analytics. GoogleService-Info.plist is not commited to Github due to security reasons. You will have to setup Firebase on our side to make this code work.
 
 ## Any questions
 •	Email us on support@cybergeniesolutions.com
