@@ -1,4 +1,4 @@
-# Project Name
+# GenieCanHelp
 GenieCanHelp is a free and non-profitable app designed to support and empower patients along their cancer journey. GenieCanHelp is a refreshing change from apps that offer clinical resources and medical information. GenieCanHelp is created as a useful app to support patients wellbeing and help them manage their routine. An easy-to-use app that will reduce unnecessary stress during stressful times. This app helps manage personal information, appointments, contacts, notes, medicines, mood, body temprature, fluid intake, oxygen level and lists. 
 
 ## Table of contents
@@ -25,7 +25,7 @@ This folder contains the source code of GenieCanHelp iOS Mobile application.
 Clone or Download GenieCanHelp source code and developers need to open GenieCanHelp.xcworkspace file in XCode.
 
 ## Features
-List of existing features
+List of existing features. You can find details of every feature [@Functional Specification document](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/tree/master/docs/)
 * keep personal information
 * Add or remove features from the main menu
 * keep contacts
