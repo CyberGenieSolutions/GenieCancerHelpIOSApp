@@ -12,7 +12,7 @@ Thinking about contributing in GenieCanHelp app!! We welcome you to our communit
 •	Be sure to include a title and clear description, as much relevant information as possible, and a code sample or an    executable test case demonstrating the expected behavior that is not occurring.
 
 ### Fix a Bug / Add a new feature or change an existing one
-•	Suggest your change or enhancement  or find a bug under [@Issues](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/issues/) to work on. 
+•	Suggest your change or enhancement  or find a bug / feature under [@Issues](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/issues/) to work on. 
 
 •	Open a new GitHub pull request.
 
