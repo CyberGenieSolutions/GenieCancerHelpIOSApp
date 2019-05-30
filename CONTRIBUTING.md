@@ -28,8 +28,9 @@ Thinking about contributing in GenieCanHelp app!! We welcome you to our communit
 
 •	This app ueses [@Firebase](https://firebase.google.com/docs/storage/ios/start/) for analytics. GoogleService-Info.plist is not commited to Github due to security reasons. You will have to setup Firebase on our side to make this code work.
 
-•	if you have made any change in database schema, ensure that you update database schema version in setConfiguration function of RealmHelper.class.
-
+•	If you have made any change in database schema, ensure that you update database schema version in setConfiguration function of RealmHelper.class.
+ 
+    
 ## Any questions
 •	Email us on support@cybergeniesolutions.com
 
