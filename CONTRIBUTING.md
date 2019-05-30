@@ -12,7 +12,7 @@ Thinking about contributing in GenieCanHelp app!! We welcome you to our communit
 •	Be sure to include a title and clear description, as much relevant information as possible, and a code sample or an    executable test case demonstrating the expected behavior that is not occurring.
 
 ### Fix a Bug / Add a new feature or change an existing one
-•	Suggest your change or enhancement  or find a bug under [@Issues](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/issues/) to work on. 
+•	Suggest your change or enhancement  or find a bug / feature under [@Issues](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/issues/) to work on. 
 
 •	Open a new GitHub pull request.
 
@@ -24,11 +24,13 @@ Thinking about contributing in GenieCanHelp app!! We welcome you to our communit
 
 •	Put as many helpful comments you can in the code.
 
-•	Don’t forget to put Google Analytics tracking functionality. For details refer to Section 4.1.2.5 of [@Functional Specification document](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/tree/master/docs/).
-
 •	Ensure that you follow colour and font guide provided in section 4.2 of [@Functional Specification document](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/tree/master/docs/). 
 
+•	This app ueses [@Firebase](https://firebase.google.com/docs/storage/ios/start/) for analytics. GoogleService-Info.plist is not commited to Github due to security reasons. You will have to setup Firebase on our side to make this code work.
 
+•	If you have made any change in database schema, ensure that you update database schema version in setConfiguration function of RealmHelper.class.
+ 
+    
 ## Any questions
 •	Email us on support@cybergeniesolutions.com
 
