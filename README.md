@@ -22,7 +22,7 @@ This folder contains the source code of GenieCanHelp iOS Mobile application. If 
 * Swift 4
 
 ## Setup
-Clone or Download GenieCanHelp source code and developers need to open GenieCanHelp.xcworkspace file in XCode.
+Clone or Download GenieCanHelp source code and developers need to open GenieCanHelp.xcworkspace file in XCode.This app uses [@Firebase](https://firebase.google.com/docs/storage/ios/start/) for analytics. GoogleService-Info.plist is not commited to Github due to security reasons. Developers will have to setup Firebase on their side to make this code work.
 
 ## Features
 List of existing features. You can find details of every feature [@Functional Specification document](https://github.com/CyberGenieSolutions/GenieCancerHelpIOSApp/tree/master/docs/)
@@ -36,7 +36,7 @@ List of existing features. You can find details of every feature [@Functional Sp
 * Keep notes
 * Keep lists
 * Oxygen level
-* fluid intake
+* Fluid intake
 * Useful links
 * Create PDF reports
 * Email reports
